@@ -1,47 +1,25 @@
-# WED2-Testat
+# Web based note application
 Testation for the Web Engineering and Design 2 Module at University for Applied Sciences Rapperswil
 
-## Goal:
-Responsive webapp to manage notes
+# Description:
+Responsive webapp to manage notes written in NodeJS, Javascript, HTML and CSS. The application also uses a NOSQL Database (Nedb). All rendering is copletely done by the server there is no Javascript used by the client.
 
-### Wireframes:
-![github-small](https://github.com/qwykx/WED2-Testat/blob/master/wireframes/Wireframe.png?raw=true)
+# Functionality:
 
-## Requirements:
-### Main
+The project has the following functionality:
+
+## Main
 - capturing & editing notes
-  - all fields existing
-  - all input types correctly set
   - validation of input
   - priority for notes between 1 & 5
 - displaying entries
-  - according to video
-- dorting notes
+- sorting notes
   - ascending & descending
 - switching between styles
   - apply style to master & detail
 - fluid design
   - usability on smartphone & desktop
+- Session
 
-### Additional
-- server structure
-  - practical file structure, e.g. no DB-queries in the controller
-- database bound
-  - nedb must be used
-- no data
-  - an empty note-list must be displayed meaningful
-- JS / HTML / CSS quality
-  - as learnt in WED1
-  - no copy & paste allowed
-- miscellaneous
-  - style / filter / sort
-    - using session
-    - navigation & page refresh must not have an effect
-    - are applied as query-parameters on the index-page
 
-### Restrictions
-- no javascript on client side
-- fluid design
-  - usage of Bootstrap is permitted
-  - must use flexbox or CSS-grid & media-queries
 
